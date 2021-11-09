@@ -1,10 +1,13 @@
-header{
-    background-color: white;
+header {
+    background-color: #FFFFFF;
     height: 70px;
     width: 100%;
-    border-bottom: 1px #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
 }
-div.logo{
+.logo {
     background-image: url(../images/logo.png);
-    padding-left: 20px;
+    width: 160px;
+    height: 60px;
+    background-repeat: no-repeat;
+    align-items: 20px;
 }
