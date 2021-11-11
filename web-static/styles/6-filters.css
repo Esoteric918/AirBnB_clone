@@ -23,18 +23,44 @@ button:hover {
 }
 .locations {
     display: inline-block;
-    height: 100%;
+    /* height: 100%; */
     width: 25%;
     border-right: 1px solid #dddddd;
+    position: absolute;
 
 }
 .amenities {
-    display: inline-block;
+    display:inline-block;
     height: 100%;
     width: 25%;
-    text-align: left;
+    position: relative;
+    left: 29%
 }
-
+.popover {
+    display: none;
+    background-color: #fafafa;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+.h4:hover .popover{
+    text-indent: 3px;
+}
+.locations:hover .popover{
+    display: block;
+}
+.amenities:hover .popover{
+    text-indent: 20%;
+    display: block;
+}
+ul {
+    list-style-type: none;
+}
 h3 {
     font-weight: 600;
     margin-left: 20%;
@@ -45,4 +71,9 @@ h4 {
     font-size: 14px;
     margin-left: 20%;
     margin-top: 3px;
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 3px;
 }
