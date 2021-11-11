@@ -22,7 +22,6 @@ button:hover {
     opacity: 90%;
 }
 .locations {
-    display: inline-block;
     width: 13%;
     border-right: 1px solid #dddddd;
     position: absolute;
@@ -30,7 +29,6 @@ button:hover {
 }
 .amenities {
     display:inline-block;
-    height: 100%;
     width: 20%;
     position: relative;
     left: 20%
@@ -60,19 +58,19 @@ button:hover {
 ul {
     list-style-type: none;
 }
-h3 {
+.filters h3 {
     font-weight: 600;
     margin-left: 20%;
     margin-bottom: 0em;
 }
-h4 {
+.filters h4 {
     font-weight: 400;
     font-size: 14px;
     margin-left: 20%;
     margin-top: 3px;
 }
 
-h2 {
+.filters h2 {
     font-size: 16px;
     line-height: 3px;
 }
